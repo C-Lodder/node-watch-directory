@@ -5,8 +5,8 @@ const exec     = require('child_process').exec;
 const log      = console.log;
 
 // Config
-const dir    = 'C:/dev/new/capture_pages/webapp';
-const script = '"move.sh"';
+const dir    = 'C:/my/directory';
+const script = '"shell.sh"';
 
 // Initialize watcher.
 const watcher = chokidar.watch(dir, {
