@@ -6,9 +6,9 @@ const log      = console.log;
 
 // Config
 const dir    = 'C:/my/directory';
-const script = '"shell.sh"';
+const script = 'sh shell.sh'; // or 'sh ./shell.sh'
 
-// Initialize watcher.
+// Initialize watcher
 const watcher = chokidar.watch(dir, {
 	ignored: /[\/\\]\./,
 	persistent: true
